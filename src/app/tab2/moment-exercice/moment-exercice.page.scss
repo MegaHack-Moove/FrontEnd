@@ -1,0 +1,40 @@
+ion-content{
+    --background: linear-gradient(180deg, rgba(174, 120, 242, 0.81) 0%, rgba(107, 144, 241, 0.81) 100%);
+}
+
+.principal-image img{
+    width: 60%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.principal-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+    margin-bottom: 20px
+}
+
+ion-button{
+    margin-top: 30px;
+    display: flex;
+    border: 5;
+    margin: 30px;
+    padding: 4px;
+    border: white;
+    --border-radius: 24px;
+}
+
+.ajust-icon{
+    margin: 30px;
+}
+
+.ajust-icon img{
+    width: 2rem;
+}
+
+h3{
+    text-align: center;
+    color: white;
+}

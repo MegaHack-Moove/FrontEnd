@@ -1,0 +1,50 @@
+.backgroud{
+    background-image: url('../../assets/backgrounds/back-login.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.central-image{
+    display: flex;
+    justify-content: center;
+}
+
+ion-input{
+    height: 60px;
+    border-radius: 25px;
+    background-color: #E9E9E9;
+    margin-top: 20px;
+}
+
+img{
+    margin-top: 40px;
+    width: 20%;
+}
+
+.form-login h2{
+    color: #AE78F2;
+    text-align: center;
+}
+
+.form-login a{
+    color: #AE78F2
+}
+
+p{
+    color: #428DFF;
+    text-align: center;
+}
+
+.form-login{
+    margin: 40px;
+}
+
+.text-register{
+    text-align: center;
+    margin: 50px;
+}
+
+.login{
+    margin: 40px;
+    justify-content: center;
+}

@@ -1,0 +1,50 @@
+.background{
+    background-size: 100%;
+    background-image: url('../../assets/icon/Rectangle65.svg');
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+
+h1{
+    margin: 0px;
+    font-size: 23px;
+}
+
+h2{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 14px;
+}
+
+img{
+    margin: 30px;
+    animation: float 6s ease-in-out infinite;
+}
+
+.ajust-image{
+    display: flex;
+    justify-content: center;
+}
+
+.button-start{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+*{
+    color: white;
+}

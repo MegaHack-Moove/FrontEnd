@@ -1,0 +1,84 @@
+.background{
+    background-size: 100%;
+    background-image: url('../../../assets/icon/Group89.svg');
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+
+.aling{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.aling-all-components{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aling-icons{
+    display: flex;
+    align-items: center;
+}
+
+.aling p{
+    color: white;
+    margin: 0;
+    margin-left: 15px;
+}
+
+img{
+    width: 50%;
+}
+
+.image-pet{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.align-progress{
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+ion-progress-bar{
+    height: 20px;
+    border-radius: 40px;
+}
+
+.data-progress p{
+    color: #FF9995;
+}
+
+.data-progress{
+    display: flex;
+    justify-content: center;
+}
+
+ion-button{
+    border-radius: 35%;
+}
+
+.startExercice{
+    --border-radius: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-exercice{
+    margin-bottom: 30px;
+}
+
+.text-exercice h2{
+    text-align: center;
+    color: #ae78f2;
+}
+
+.text-exercice p{
+    color: #A19D9D;
+}

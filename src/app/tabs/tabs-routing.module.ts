@@ -24,15 +24,19 @@ const routes: Routes = [
         loadChildren: () => import('../tab4/tab4.module').then(m => m.Tab4PageModule)
       },
       {
+        path: 'welcome',
+        loadChildren: () => import('../welcome/welcome.module').then(m => m.WelcomePageModule)
+      },
+      {
         path: '',
-        redirectTo: '/tabs/tab1',
+        redirectTo: '/welcome',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/tab1',
+    redirectTo: '/welcome',
     pathMatch: 'full'
   }
 ];
