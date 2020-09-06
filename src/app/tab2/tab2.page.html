@@ -1,23 +1,15 @@
+<ion-content [fullscreen]="true">
 
-<ion-header color="primary" [translucent]="true">
-  <ion-toolbar color="primary">
+<div class="background">
     <ion-buttons slot="start">
       <ion-button routerLink="/welcome" routerDirection="forward">
         <ion-icon src="../../assets/icon/previos.svg"></ion-icon>
       </ion-button>
     </ion-buttons>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-toolbar class="text-exercices-prin" color="primary">
-    <div>
       <ion-title>
         Meus exercícios
       </ion-title>
-      <p>complete seus exercícios para aumentar seu ranking!</p>
-    </div>
-  </ion-toolbar>
+      <p class="subtitle">complete seus exercícios para aumentar seu ranking!</p>
   <div class="position-list">
     <ion-row>
       <ion-col>
@@ -53,7 +45,7 @@
         </ion-card>
       </ion-col>
       <ion-col>
-        <ion-card>
+        <ion-card routerLink="start-exercice">
           <ion-card-content>
             <img src="../../assets/image/abacate2.svg" alt="">
           </ion-card-content>
@@ -64,4 +56,5 @@
       </ion-col>
     </ion-row>
   </div>
+</div>
 </ion-content>

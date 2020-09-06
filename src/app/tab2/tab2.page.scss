@@ -1,3 +1,9 @@
+.background{
+    background-size: 100%;
+    background-image: url('../../assets/backgrounds/ondinha-roxa.svg');
+    background-repeat: no-repeat;
+    padding: 15px;
+}
 .text-exercices-prin{
     padding-left: 10px;
 }
@@ -22,8 +28,15 @@ ion-card-header{
     text-align: center;
 }
 
-.background{
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding: 40px;
+.subtitle, ion-title{
+    color: #fff;
+    text-align: center;
+}
+
+.position-list{
+    margin-top: 5em;
+}
+
+ion-card-title{
+    color: #A19D9D;
 }
