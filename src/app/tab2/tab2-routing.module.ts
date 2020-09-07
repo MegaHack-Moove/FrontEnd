@@ -14,6 +14,10 @@ const routes: Routes = [
   {
     path: 'moment-exercice',
     loadChildren: () => import('./moment-exercice/moment-exercice.module').then( m => m.MomentExercicePageModule)
+  },
+  {
+    path: 'help-exercice',
+    loadChildren: () => import('./help-exercice/help-exercice.module').then( m => m.HelpExercicePageModule)
   }
 ];
 

@@ -1,8 +1,7 @@
 .background{
     background-size: 100%;
-    background-image: url('../../assets/backgrounds/backgroud-desafio.png');
+    background-image: url('../../../assets/backgrounds/backgroud-desafio.png');
     background-repeat: no-repeat;
-    padding: 25px;
 }
 
 .aling{
@@ -35,7 +34,8 @@
 }
 
 img{
-    width: 35%;
+    width: 8.563rem;
+    height: 8.563rem;
 }
 
 .image-pet{
@@ -87,4 +87,12 @@ h2{
 
 .text-exercice p{
     color: #A19D9D;
+}
+
+ion-row{
+    padding: 25px;
+}
+
+.menu{
+    display: flex;
 }

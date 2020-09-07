@@ -1,20 +1,19 @@
 .background{
     background-size: 100%;
-    background-image: url('../../assets/backgrounds/backgroud-desafio.png');
+    background-image: url('../../../assets/icon/Group89.svg');
     background-repeat: no-repeat;
     padding: 25px;
-}
-
-.aling{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    padding-bottom: 0 ;
 }
 
 .aling-all-components{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    color: white;
+}
+
+.aling-all-components img{
+    width: 30px;
+    margin-right: 50px;
 }
 
 .aling-icons{
@@ -77,14 +76,34 @@ ion-button{
 }
 
 .text-exercice{
-    margin: 30px;
+    margin-bottom: 30px;
 }
 
-h2{
+.text-exercice h2{
     text-align: center;
-    color: white;
+    color: #ae78f2;
 }
 
-.text-exercice p{
+.text-exercice li{
+    margin: 28px;
     color: #A19D9D;
 }
+
+p{
+    font-size: 14px;
+}
+
+footer{
+    background-image: url('../../../assets/backgrounds/footer-back.png');
+    padding: 30px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+li::before {content: counter(li); color: #ae78f2;
+    display: inline-block; width: 1em;
+    margin-left: -1em}
+
+    li {counter-increment: li}
+    ol {list-style: none; counter-reset: li; padding-left: 0;}

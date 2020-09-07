@@ -5,14 +5,15 @@
     </div>
     <div class="form-login">
         <h2>Login</h2>
-        <ion-input placeholder="digite o seu CPF"></ion-input>
-        <ion-input placeholder="digite a sua senha" type="password"></ion-input>
+        <ion-input placeholder="digite o seu CPF" [ngModel]="username"></ion-input>
+        <ion-input placeholder="digite a sua senha" [ngModel]="password" type="password"></ion-input>
     </div>
     <div class="text-register">
       <p>Esqueceu sua senha? <a>Clique aqui!</a></p>
     </div>
     <div class="login">
       <ion-button size="large" color="secondary" routerLink="/welcome">Entrar</ion-button>
+      <ion-button size="large" color="secondary" routerLink="doctor-dashboard">Entrar como medico</ion-button>
     </div>
   </div>
 </ion-content>

@@ -1,17 +1,35 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
+  <div class="background">
+    <div class="aling-all-components">
+    <div class="aling">
+        <img slot="start" src="../../../assets/icon/moeda.svg">
+        <p>120</p>
+    </div>
+    <div class="aling">
+        <img slot="start" src="../../../assets/icon/loginha2.svg">
+        <p>loja</p>
+    </div>
+    <div class="aling">
+        <img slot="start" src="../../../assets/icon/medalha.svg">
+        <p>8ª</p>
+    </div>
+  </div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <h2>Olá, Maria!</h2>
+  <div size="4" class="image-pet">
+    <img src="../../../assets/image/abacate2.svg" alt="">
+  </div>
+  <div class="text-exercice">
+    <p>Você possui desafios a serem feitos para subir de colocação.</p>
+  </div>
+  <div class="align-progress">
+    <ion-progress-bar color="tertiary" value="0.4"></ion-progress-bar>
+  </div>
+  <div class="data-progress">
+    <p coloor="tertiary">123 / 240 XP</p>
+  </div>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-button class="startExercice" size="large" color="secondary">Ver Desafios</ion-button>
+</div>
 </ion-content>
+

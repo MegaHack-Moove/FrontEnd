@@ -7,6 +7,10 @@ const routes: Routes = [
   {
     path: '',
     component: LoginPage
+  },
+  {
+    path: 'doctor-dashboard',
+    loadChildren: () => import('../tab3/doctor-dashboard/doctor-dashboard.module').then( m => m.DoctorDashboardPageModule)
   }
 ];
 

@@ -1,11 +1,15 @@
 <ion-content>
   <div class="ajust-icon">
-    <img class="icon" src="../../../assets/icon/help.svg">
+    <img *ngIf="onAudio" class="icon" src="../../../assets/icon/not-music.svg" (click)='stopAudio()'>
+    <img *ngIf="!onAudio" class="icon" src="../../../assets/icon/music.svg">
+    <img class="icon"  src="../../../assets/icon/pergunta.svg" routerLink="../help-exercice">
   </div>
     <div size="6" class="principal-image">
-      <img src="../../../assets/image/abacate1.svg" alt="">
+      <img class="top" src="../../../assets/image/abacate2.svg" alt="">
     </div>
 
-    <h3>8:30</h3>
-    <ion-button size="large" color="secondary">Começar</ion-button>
+    <h3>{{timeLeft}}</h3>
+    <ion-button color="secondary" (click)='startTimer()'>Começar</ion-button>
+    <ion-button color="secondary" (click)='pauseTimer()'>Pausar</ion-button>
+    <ion-button *ngIf="timeLeft == 0" color="secondary" (click)='pauseTimer()'  routerLink="../../tab3">Finalizar</ion-button>
 </ion-content>
