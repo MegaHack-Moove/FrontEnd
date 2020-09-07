@@ -9,8 +9,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "heroku-postbuild": "cd ANGULAR_APP_FOLDER && npm install"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -27,9 +26,7 @@
     "@ionic/angular": "^5.0.0",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
-    "zone.js": "~0.10.3",
-    "@ionic/app-scripts": "2.1.4",
-    "typescript": "2.3.4"
+    "zone.js": "~0.10.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1000.0",
