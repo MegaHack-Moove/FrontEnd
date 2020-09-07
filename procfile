@@ -1,1 +1,1 @@
-web: ng build && ng start
+web: ionic build && ionic start
