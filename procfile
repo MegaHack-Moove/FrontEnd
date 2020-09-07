@@ -1,1 +1,1 @@
-web: ionic build && ionic start
+web: ionic build && ionic serve
