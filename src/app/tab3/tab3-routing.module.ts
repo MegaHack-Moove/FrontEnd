@@ -6,11 +6,11 @@ const routes: Routes = [
   {
     path: '',
     component: Tab3Page,
-  },  {
+  },
+  {
     path: 'doctor-dashboard',
     loadChildren: () => import('./doctor-dashboard/doctor-dashboard.module').then( m => m.DoctorDashboardPageModule)
   }
-
 ];
 
 @NgModule({

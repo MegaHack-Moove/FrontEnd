@@ -1,0 +1,46 @@
+.background{
+    background-size: 100%;
+    background-image: url('../../../assets/backgrounds/backgroud-desafio.png');
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+
+.title{
+    display: flex;
+    justify-content: start;
+    padding: 35px;
+}
+
+h2{
+    margin-right: 15px;
+    color: white;
+}
+
+.busca{
+    margin-top: 100px;
+}
+
+ion-card-title{
+    font-size: 14px;
+    --color: #AE78F2;
+}
+
+ion-card-subtitle{
+    --color: #B2AFAF;
+}
+
+ion-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    color: #AE78F2;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+ion-card-content{
+    padding: 30px;
+}

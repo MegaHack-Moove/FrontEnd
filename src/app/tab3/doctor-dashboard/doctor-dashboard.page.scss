@@ -33,11 +33,6 @@
     border-radius: 15px;
 }
 
-img{
-    width: 8.563rem;
-    height: 8.563rem;
-}
-
 .image-pet{
     display: flex;
     justify-content: center;
@@ -95,4 +90,36 @@ ion-row{
 
 .menu{
     display: flex;
+}
+
+ion-card-title{
+    font-size: 16px;
+    --color: #AE78F2;
+    font-style: semibold;
+}
+
+.menu img{
+    width: 60px;
+}
+
+ion-card-content{
+    background: #FFD6D4;
+    width: 30%;
+    justify-content: center;
+    display: flex;
+}
+
+
+.doctor{
+    padding: 13px;
+}
+
+ion-card-header{
+    display: flex;
+    align-items: center;
+}
+
+ion-card{
+    margin-left: 30.5px;
+    margin-right: 30.5px;
 }

@@ -17,6 +17,8 @@
 
 ion-card-title{
     font-size: 14px;
+    color: #A19D9D;
+    text-align: center;
 }
 
 ion-card-content{
@@ -26,6 +28,8 @@ ion-card-content{
 
 ion-card-header{
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .subtitle, ion-title{
@@ -37,10 +41,11 @@ ion-card-header{
     margin-top: 5em;
 }
 
-ion-card-title{
-    color: #A19D9D;
-}
-
 #execcao{
     width: 45%;
+}
+
+ion-card-header{
+    display: flex;
+    justify-content: center;
 }

@@ -18,6 +18,10 @@ const routes: Routes = [
   {
     path: 'help-exercice',
     loadChildren: () => import('./help-exercice/help-exercice.module').then( m => m.HelpExercicePageModule)
+  },
+  {
+    path: 'paciente',
+    loadChildren: () => import('./paciente/paciente.module').then( m => m.PacientePageModule)
   }
 ];
 

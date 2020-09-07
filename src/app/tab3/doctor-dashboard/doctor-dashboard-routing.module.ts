@@ -7,6 +7,10 @@ const routes: Routes = [
   {
     path: '',
     component: DoctorDashboardPage
+  },
+  {
+    path: 'paciente',
+    loadChildren: () => import('../../tab2/paciente/paciente.module').then( m => m.PacientePageModule)
   }
 ];
 
