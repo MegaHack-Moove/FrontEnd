@@ -28,15 +28,19 @@ const routes: Routes = [
         loadChildren: () => import('../welcome/welcome.module').then(m => m.WelcomePageModule)
       },
       {
+        path: 'login',
+        loadChildren: () => import('../login/login.module').then( m => m.LoginPageModule)
+      },
+      {
         path: '',
-        redirectTo: '/welcome',
+        redirectTo: '/login',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/welcome',
+    redirectTo: '/login',
     pathMatch: 'full'
   }
 ];
